@@ -29,9 +29,9 @@ app.use(cors());
 app.use("/posts", postRoute);
 app.use("/user", userRoute);
 
-app.get("/", (req, res) => {
-  res.send("Hello All");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello All");
+// });
 
 // const CONNECTION_URL = `mongodb+srv://Nawaz:bashabanu@cluster0.8qpas.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const PORT = process.env.PORT || 9000;
